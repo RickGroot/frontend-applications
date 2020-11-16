@@ -1,5 +1,5 @@
-# Frontend Data
-A repository for Frontend Data, subject of the Information Design semester of CMD.    
+# Frontend Applications
+A repository for Frontend Appications, subject of the Information Design semester of CMD.    
 
 [*LINK TO SOURCES*](https://github.com/Rickert41/frontend-data/blob/main/sources.md)
 
