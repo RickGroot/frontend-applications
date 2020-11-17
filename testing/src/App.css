@@ -1,38 +1,176 @@
-.App {
-  text-align: center;
+body {
+  margin-bottom: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+article {
+  width: 60vw;
+  max-width: 700px;
+  min-width: 500px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: 3em;
+  margin-top: 5vh;
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#bar {
+  height: 400px;
+  width: 60vw;
+  max-width: 700px;
+  min-width: 500px;
+}
+
+rect.bar {
+  fill: #656565;
+  border: 2px solid black;
+}
+
+rect.bar:hover {
+  fill: rgb(0, 255, 200);
+  transition: all .3s;
+}
+
+#slider {
+  color: navy;
+  width: auto;
+}
+
+.svgContainer {
+  height: 600px;
+  width: 60vw;
+  max-width: 700px;
+  min-width: 500px;
+  background-color: #2c323b;
+  overflow: hidden;
+  position: relative;
+}
+
+.sliderContainer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  background-color: rgba(65, 65, 65, 0.651);
+  border-radius: 10px;
+  z-index: 100;
+}
+
+#value {
   color: white;
+  font-weight: 600;
+  width: 10px;
+  margin: auto 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.metric {
+  color: white;
+  font-weight: 500;
+  width: auto;
+  margin: auto 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#slider {
+  width: 70px;
+  height: auto;
+}
+
+svg#map {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+h2 {
+  position: relative;
+  height: 2px;
+  z-index: 200;
+  margin-left: 20px;
+}
+
+.mapTitle {
+  color: white;
+  top: 30px;
+}
+
+#map path {
+  fill: #292a2a;
+  stroke: #656565;
+}
+
+#map circle {
+  fill:rgb(0, 255, 200);
+  stroke: rgb(39, 39, 39);
+  stroke-width: 1;
+  opacity: .7;
+}
+
+#map circle:hover {
+  fill: white;
+  opacity: 1;
+  transition: all .2s;
+}
+
+.greenDot {
+  fill: rgb(0, 255, 200) !important;
+}
+
+.redDot {
+  fill: rgb(255, 0, 76) !important;
+}
+
+.focus {
+  position: absolute;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+  opacity: 1;
+}
+
+.unfocus {
+  opacity: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  article {
+      margin: 0 4vw;
+      width: auto;
+      max-width: 550px;
+      min-width: auto;
   }
-  to {
-    transform: rotate(360deg);
+
+  #bar {
+      width: 100%;
+      max-width: 550px;
+      min-width: auto;
+  }
+
+  .svgContainer {
+      width: auto;
+      max-width: 550px;
+      min-width: auto;
+  }
+
+  h2 {
+      height: 40px;
+      margin: 0;
+  }
+
+  .mapTitle {
+      top: 50px;
+      margin-left: 2vw;
+  }
+
+  .sliderContainer {
+      right: -2vw;
+      transform: scale(0.7);
   }
 }
