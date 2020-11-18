@@ -1,4 +1,6 @@
 import React from 'react';
+// import * as d3 from 'd3';
+// import loadMap from './charts/data/data';
 import Barchart from './charts/barchart';
 import Mapchart from './charts/mapchart';
 import './App.css';

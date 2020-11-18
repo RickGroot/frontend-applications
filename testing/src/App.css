@@ -79,7 +79,7 @@ rect.bar:hover {
 
 svg#map {
   position: relative;
-  height: 100%;
+  height: 600px;
   width: 100%;
   top: 0;
   bottom: 0;
