@@ -8,15 +8,18 @@ import './App.css';
 function App() {
 
   return(
-    <div>
       <article>
-      <h1>Parkeergarages in Nederland</h1>
-      <p>Je hebt het allemaal wel eens, pas ik nou wel of niet in die parkeergarage? Vaak als je met een dakkoffer rijd weet je niet precies waar je wel en niet terecht kan. Hoe het zit met de hoogtes van parkeergarages voor vakantiegangers heb ik hier even kort duidelijk gemaakt.</p>
+      <h1>Met een Hummer in de parkeergarage</h1>
+      <p>Parkeergarages zijn in elke grote stad te vinden, en worden het hele jaar door gebruikt door iedereen. Maar wat nou als je een grote auto hebt, pas je dan nog wel in de meeste parkeergarages?</p>
+      <p>Een hummer is een voorbeeld van zo een grote auto, met maar liefst een hoogte van iets hoger dan 2 meter. In dit korte artikel heb ik uitgezogd in welke parkeergarages nog wel en niet geparkeerd kan worden met een Hummer.</p>
+      <h2>Even een snel overzicht</h2>
       <Barchart />
-      <p>Wil je weten in welke parkeergarages jij kan parkeren in Nederland? Bekijk dit dan snel in de map hieronder!</p>
+      <p>Hierboven staat een grafiek waarop alle hoogtes van parkeergarages staan. Zoals je ziet zijn er een heel aantal garages waar de Hummer niet in past.</p>
+      <h2>In kaart gebracht</h2>
+      <p>In welke steden is het dan wel mogelijk om zonder te veel stress te parkeren? Op de map hieronder is te zien waar de parkeergarages liggen waar je kan parkeren met een Hummer of ander voertuig dat hoger is dan 2 meter.</p>
       <Mapchart />
+      <p>Zoals u hierboven kan zien zijn er nogsteeds een aantal parkeermogelijkheden voor een Hummer. In Amsterdam zijn er bijvoorbeeld een aantal kleine garages die geschikt zijn, maar ook in de grote steden als Rotterdam en Utrecht zijn genoeg mogelijkheden. In Friesland is zelfs elke parkeerplaats hoog genoeg!</p>
       </article>
-    </div>
   )
 }
 

@@ -12,7 +12,17 @@ article {
 h1 {
   font-size: 3em;
   margin-top: 5vh;
+  margin-bottom: 2vh;
   font-weight: 600;
+}
+
+h2 {
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
+p {
+  margin: 1vh 0;
 }
 
 #bar {
@@ -23,7 +33,7 @@ h1 {
 }
 
 rect.bar {
-  fill: #656565;
+  /* fill: #656565; */
   border: 2px solid black;
 }
 
@@ -37,7 +47,7 @@ rect.bar:hover {
   width: auto;
 }
 
-.svgContainer {
+#map {
   height: 600px;
   width: 60vw;
   max-width: 700px;
@@ -87,18 +97,6 @@ svg#map {
   right: 0;
 }
 
-h2 {
-  position: relative;
-  height: 2px;
-  z-index: 200;
-  margin-left: 20px;
-}
-
-.mapTitle {
-  color: white;
-  top: 30px;
-}
-
 #map path {
   fill: #292a2a;
   stroke: #656565;
@@ -122,7 +120,15 @@ h2 {
 }
 
 .redDot {
-  fill: rgb(255, 0, 76) !important;
+  fill: rgb(255, 0, 55) !important;
+}
+
+.redBar {
+  fill:  #ff2e2e !important;
+}
+
+.greenBar {
+  fill: #656565 !important;
 }
 
 .focus {
@@ -157,16 +163,6 @@ h2 {
       width: auto;
       max-width: 550px;
       min-width: auto;
-  }
-
-  h2 {
-      height: 40px;
-      margin: 0;
-  }
-
-  .mapTitle {
-      top: 50px;
-      margin-left: 2vw;
   }
 
   .sliderContainer {

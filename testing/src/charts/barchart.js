@@ -1,12 +1,15 @@
 import React from 'react';
+import loadBar from './data/bar'
 
 function Barchart() {
 
 
     return (
-        <svg>
-            <text x="0" y="50" fontSize="2em">Add bar in this svg</text>
+        <div>
+        <svg id='bar'>
         </svg>
+        <button onClick={loadBar}>bar</button>
+        </div>
     )
 }
 

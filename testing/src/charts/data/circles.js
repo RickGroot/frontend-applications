@@ -1,13 +1,26 @@
 import * as d3 from 'd3';
-import { endpoint, endpoint2, selectedColumn } from './modules/endpoint'
-import { compare } from './modules/getData';
-import { calculateRadius, mapProjection, tooltip } from './modules/mapCode';
+import {
+    endpoint,
+    endpoint2,
+    selectedColumn
+} from './modules/endpoint'
+import {
+    compare
+} from './modules/getData';
+import {
+    calculateRadius,
+    mapProjection,
+    mouseOverMap,
+    mouseOutMap,
+    updateColor
+} from './modules/mapCode';
+// import { sliderVertical } from 'd3-simple-slider';
 
 function loadCircles() {
 
-    
-    let mapSVG = d3.select("#map");
-    
+
+    let mapSVG = d3.select('#map');
+
 
     function getData(url) {
         return fetch(url); //fetches data from API url
@@ -59,30 +72,20 @@ function loadCircles() {
             .attr('cx', d => {
                 return mapProjection(d.location)[0];
             }) //adds location from data object
-            .attr("cy", d => {
+            .attr('cy', d => {
                 return mapProjection(d.location)[1];
             })
-            .attr("r", d => {
+            .attr('r', d => {
                 return calculateRadius(d.capacity);
             }) //calls function to calculate radius
-            .on("mouseover", mouseOverMap) //calls function when hovering
-            .on("mouseout", mouseOutMap) //calls function when not hovering
+            .attr('class', d => updateColor(d)) //calls color class
+            .on('mouseover', e => mouseOverMap(e, mapSVG)) //calls function when hovering
+            .on('mouseout', e => mouseOutMap(e, mapSVG)) //calls function when not hovering
     }
 
-    //when mouse is on circle
-    function mouseOverMap(event, d) { //add interactivity
+    
 
-        tooltip.html(d.areaDesc + '<br> Capacity: ' + d.capacity); //text of the tooltip
 
-        tooltip.style('left', (event.pageX) + 'px') //position of the tooltip
-            .style('top', (event.pageY + 10) + 'px')
-            .attr('class', 'focus'); //adds class for styling
-    }
-
-    //when mouse is not on circle
-    function mouseOutMap() { //sets hover back when not hovering
-        tooltip.attr('class', 'unfocus'); //adds class to hide tooltip
-    }
 
     console.log('hallo')
 
