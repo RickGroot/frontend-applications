@@ -18,7 +18,7 @@ let ID_info = {
 ```
 
 # Research topic
-Are parking garages in The Netherlands high enough for people on vacation.
+Are parking garages in The Netherlands high enough for Hummers.
 
 ## Sub-topics
 In which area's are more low parking garages?  
@@ -29,12 +29,11 @@ Are there many parking garages outside cities?
 * Location of parking garages
 * Capacity and other garage information, for better visualisation
 * Maximumheight of parking garage
-* Data of car types, like height and/or type    
 
-All this data is from RDW datasets. For location of parking garages I use [GEO Parkeer Garages](https://opendata.rdw.nl/Parkeren/GEO-Parkeer-Garages/t5pc-eb34), and for capacity and maximumvehicleheight I use [Open Data Parkeren: SPECIFICATIES PARKEERGEBIED](https://opendata.rdw.nl/Parkeren/Open-Data-Parkeren-SPECIFICATIES-PARKEERGEBIED/b3us-f26s). The datasets I am going to use for the car data are still unknown.
+All this data is from RDW datasets. For location of parking garages I use [GEO Parkeer Garages](https://opendata.rdw.nl/Parkeren/GEO-Parkeer-Garages/t5pc-eb34), and for capacity and maximumvehicleheight I use [Open Data Parkeren: SPECIFICATIES PARKEERGEBIED](https://opendata.rdw.nl/Parkeren/Open-Data-Parkeren-SPECIFICATIES-PARKEERGEBIED/b3us-f26s).
 
 ## Expectations
-I think that lots of parking garages are perfectly compatible with most cars. But if you are on a vacation there could be a problem with some garages. I think that people with a roof box, or people who travel long distances in a travel van could be in trouble with some parking garages, because these vehicles are often higher.
+I think that lots of parking garages are perfectly compatible with most cars. But if you have a Hummer you might have a problem with a lot of garages.
 
 ### Sub-topic expectations
 I think there are more low parking garages in older cities, because back then they might not have thought of taller vehicles. I also think there won't be many parking garages outside cities, because there is no need for them, and there is more space for regular parking lots.

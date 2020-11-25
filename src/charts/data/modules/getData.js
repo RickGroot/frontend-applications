@@ -1,4 +1,4 @@
-export async function compare(array1, array2) { //async function that awaits the promised arrays
+async function compare(array1, array2) { //async function that awaits the promised arrays
     const result1 = await array1; //waits for incoming data
     const result2 = await array2;
     let compiled = [];
@@ -28,3 +28,5 @@ export async function compare(array1, array2) { //async function that awaits the
 
     return compiled;
 }
+
+export { compare };
