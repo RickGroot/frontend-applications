@@ -9,6 +9,7 @@ import { margin,
     import { endpoint, endpoint2, selectedColumn } from './modules/endpoint'
     import { compare } from './modules/getData';
 
+// all logic of the bar chart is in this function
 function loadBar() {
 
     var barSVG = d3.select("#bar")

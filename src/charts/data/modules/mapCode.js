@@ -1,6 +1,9 @@
 import * as d3 from 'd3';
+import { storeData } from '../../localStorage'
 
 let mapSVG = d3.select("#map");
+
+let translate;
 
 // Map and projection
 let mapProjection = d3.geoMercator()
@@ -68,6 +71,8 @@ function mouseOutMap() { //sets hover back when not hovering
 
 function onZoom(event, mapSVG) {
     mapSVG.selectAll('svg g').attr('transform', event.transform);
+    translate = event.transform;
+    storeData(translate)
 }
 
 function updateColor(d) {

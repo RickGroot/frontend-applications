@@ -1,15 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import loadBar from './data/bar'
 
 function Barchart() {
 
+    useEffect(() => {
+        loadBar();
+    }, []);
 
     return (
-        <div>
         <svg id='bar'>
         </svg>
-        <button onClick={loadBar}>bar</button>
-        </div>
     )
 }
 
