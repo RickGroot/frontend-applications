@@ -23,3 +23,7 @@ Simple bar graph in v6. (2020, 12 september). bl.ocks.org. https://bl.ocks.org/d
 Bostock, M. (2020, 15 juli). Merging Duplicate Values. Observable. https://observablehq.com/@d3/merging-duplicate-values
 
 # Sources used for building the framework
+
+Ceddia, B. D. (2020, 17 juli). React Hook to Run Code After Render. Dave Ceddia. https://daveceddia.com/react-hook-after-render/
+
+Aarnoudse, L. (2020, 24 november). Local Storage Example. VizHub. https://vizhub.com/Razpudding/2154ed6b877c46b0866b04b46db46409 
