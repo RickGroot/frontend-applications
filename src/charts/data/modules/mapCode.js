@@ -13,10 +13,6 @@ let mapProjection = d3.geoMercator()
 
 let mapPath = d3.geoPath().projection(mapProjection)
 
-let tooltip = d3.select('article')
-    .append('div')
-    .attr('class', 'focus')
-
 function calculateRadius(capacity) { //function that calculates the radius of a bubble on the bubble map
     let radius;
     if (capacity > 1000) {
@@ -49,23 +45,6 @@ function mapThings(object) { //gets called when data is ready
         .attr("r", d => {
             return calculateRadius(d.capacity);
         }) //calls function to calculate radius
-        .on("mouseover", e => mouseOverMap(e, mapSVG)) //calls function when hovering
-        .on("mouseout", e => mouseOutMap(e, mapSVG)) //calls function when not hovering
-}
-
-//when mouse is on circle
-function mouseOverMap(event, d) { //add interactivity
-
-    tooltip.html(d.areaDesc + '<br> Capacity: ' + d.capacity); //text of the tooltip
-
-    tooltip.style('left', (event.pageX) + 'px') //position of the tooltip
-        .style('top', (event.pageY + 10) + 'px')
-        .attr('class', 'focus'); //adds class for styling
-}
-
-//when mouse is not on circle
-function mouseOutMap() { //sets hover back when not hovering
-    tooltip.attr('class', 'unfocus'); //adds class to hide tooltip
 }
 
 
@@ -88,8 +67,5 @@ export {
     calculateRadius,
     mapProjection,
     mapPath,
-    tooltip,
-    mouseOverMap,
-    mouseOutMap,
     updateColor
 }
