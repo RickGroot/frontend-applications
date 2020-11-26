@@ -20,7 +20,7 @@ function App() {
           <Barchart />
           <p>Hierboven staat een grafiek waarop alle hoogtes van parkeergarages staan. Zoals je ziet zijn er een heel aantal garages waar de Hummer niet in past. Totaal zijn er in Nederland 308 parkeergarages, die zich voornamelijk bevinden in de grote steden.</p>
           <p> Van deze parkeergarages zijn de meeste 2 meter hoog, wat net te laag is voor verschillende soorten auto's (waaronder Hummers). Ook zijn er veel parkeergarages die 1.90 meter hoog zijn. Hele hoge parkeergarages zijn op dit moment nog niet veel te vinden in Nederland, maar veel neiuwe parkeergarages worden tegenwoordig gebouwd met een hogere doorrijhoogte.</p>
-          <h2>In kaart gebracht</h2>
+          <h2 className='maptitle'>In kaart gebracht</h2>
           <p>In welke steden is het dan wel mogelijk om zonder te veel stress te parkeren? Op de map hieronder is te zien waar de parkeergarages liggen waar je kan parkeren met een Hummer of ander voertuig dat hoger is dan 2 meter.</p>
           <div className ='legend'>
             <div className='round1'></div>
