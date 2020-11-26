@@ -39,7 +39,7 @@ I think that lots of parking garages are perfectly compatible with most cars. Bu
 I think there are more low parking garages in older cities, because back then they might not have thought of taller vehicles. I also think there won't be many parking garages outside cities, because there is no need for them, and there is more space for regular parking lots.
 
 # Concept
-A map with all parking garages, with information about capacity and maximum vehicle heights. You can also filter the garages by filtering on your car height or car type, combined with a bar graph which contains the heights of parking garages, and the amount of these heights.
+A map with all parking garages, with information about the heigt of a garage. This way it will become clear where Hummers can park in The Netherlands.
 Map of the Netherlands    |    Bar graph of most common heights
 :------------------------:|:------------------------|
 ![](https://github.com/Rickert41/frontend-applications/blob/main/utils/map.jpg)  |  ![](https://github.com/Rickert41/frontend-applications/blob/main/utils/bar.jpg)
