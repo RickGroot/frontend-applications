@@ -27,3 +27,5 @@ Bostock, M. (2020, 15 juli). Merging Duplicate Values. Observable. https://obser
 Ceddia, B. D. (2020, 17 juli). React Hook to Run Code After Render. Dave Ceddia. https://daveceddia.com/react-hook-after-render/
 
 Aarnoudse, L. (2020, 24 november). Local Storage Example. VizHub. https://vizhub.com/Razpudding/2154ed6b877c46b0866b04b46db46409 
+
+Sardana, Y. (2020, 13 juli). How to Deploy React Apps for Free With GitHub Pages. dzone.com. https://dzone.com/articles/how-to-deploy-react-apps-for-free-with-github-page

@@ -10,8 +10,6 @@ import {
 import {
     calculateRadius,
     mapProjection,
-    mouseOverMap,
-    mouseOutMap,
     updateColor
 } from './modules/mapCode';
 // import { sliderVertical } from 'd3-simple-slider';
@@ -79,8 +77,6 @@ function loadCircles() {
                 return calculateRadius(d.capacity);
             }) //calls function to calculate radius
             .attr('class', d => updateColor(d)) //calls color class
-            .on('mouseover', e => mouseOverMap(e, mapSVG)) //calls function when hovering
-            .on('mouseout', e => mouseOutMap(e, mapSVG)) //calls function when not hovering
     }
 
     
