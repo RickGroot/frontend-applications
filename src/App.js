@@ -23,9 +23,9 @@ function App() {
           <p>In welke steden is het dan wel mogelijk om zonder te veel stress te parkeren? Op de map hieronder is te zien waar de parkeergarages liggen waar je kan parkeren met een Hummer of ander voertuig dat hoger is dan 2 meter.</p>
           <div className ='legend'>
             <div className='round1'></div>
-            <p>Lager dan 2M</p>
-            <div className='round2'></div>
             <p>Hoger dan 2M</p>
+            <div className='round2'></div>
+            <p>Lager dan 2M</p>
           </div>
           <Mapchart />
           <p>Zoals u hierboven kan zien zijn er nogsteeds een aantal parkeermogelijkheden voor een Hummer. In Amsterdam zijn er bijvoorbeeld een aantal kleine garages die geschikt zijn, maar ook in de grote steden als Rotterdam en Utrecht zijn genoeg mogelijkheden. In Friesland is zelfs elke parkeerplaats hoog genoeg!</p>
