@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/frontend-applications/static/css/main.c1eb713e.chunk.css",
-    "main.js": "/frontend-applications/static/js/main.89c3697d.chunk.js",
-    "main.js.map": "/frontend-applications/static/js/main.89c3697d.chunk.js.map",
+    "main.js": "/frontend-applications/static/js/main.c2f8716f.chunk.js",
+    "main.js.map": "/frontend-applications/static/js/main.c2f8716f.chunk.js.map",
     "runtime-main.js": "/frontend-applications/static/js/runtime-main.72889f59.js",
     "runtime-main.js.map": "/frontend-applications/static/js/runtime-main.72889f59.js.map",
     "static/js/2.0ff640fd.chunk.js": "/frontend-applications/static/js/2.0ff640fd.chunk.js",
@@ -12,13 +12,12 @@
     "index.html": "/frontend-applications/index.html",
     "static/css/main.c1eb713e.chunk.css.map": "/frontend-applications/static/css/main.c1eb713e.chunk.css.map",
     "static/js/2.0ff640fd.chunk.js.LICENSE.txt": "/frontend-applications/static/js/2.0ff640fd.chunk.js.LICENSE.txt",
-    "static/media/garage.859d6d28.jpg": "/frontend-applications/static/media/garage.859d6d28.jpg",
     "static/media/hummer.e4d78828.jpg": "/frontend-applications/static/media/hummer.e4d78828.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.72889f59.js",
     "static/js/2.0ff640fd.chunk.js",
     "static/css/main.c1eb713e.chunk.css",
-    "static/js/main.89c3697d.chunk.js"
+    "static/js/main.c2f8716f.chunk.js"
   ]
 }
