@@ -12,7 +12,7 @@ function App() {
           <h1>Met een Hummer in de parkeergarage</h1>
           <img src={Hummer} alt='Parkeergarage' className='cover'></img>
           <p>Parkeergarages zijn in elke grote stad te vinden, en worden het hele jaar door gebruikt door iedereen. Maar wat nou als je een grote auto hebt, pas je dan nog wel in de meeste parkeergarages?</p>
-          <p>Een hummer is een voorbeeld van zo een grote auto, met maar liefst een hoogte van iets hoger dan 2 meter. In dit korte artikel heb ik uitgezogd in welke parkeergarages nog wel en niet geparkeerd kan worden met een Hummer.</p>
+          <p>Een hummer is een voorbeeld van zo een grote auto, met maar liefst een hoogte van iets hoger dan 2 meter. In dit korte artikel heb ik uitgezocht in welke parkeergarages nog wel en niet geparkeerd kan worden met een Hummer.</p>
         </section>
         <section className='content'>
           <h2>Garage hoogtes in een snel overzicht</h2>
